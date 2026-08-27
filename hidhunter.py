@@ -574,7 +574,7 @@ class DropHandler(FileSystemEventHandler):
                 verdict, info = get_vt_verdict_for_file(extracted_path, h)
                 if "MALICIOUS" in verdict or "LOW RISK" in verdict:
                     any_malicious = True
-                results.append(f"{idx}. {inner_name}: {verdict} ({detected}/{total})" if detected is not None else f"{idx}. {inner_name}: {verdict}")
+                results.append(f"{idx}. {inner_name}: {verdict}")
                 logging.warning(f"ARCHIVE ITEM {idx}: {path.name} -> {inner_name} SHA256:{h}{info}")
 
             if not results:
