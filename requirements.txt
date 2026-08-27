@@ -1,4 +1,0 @@
-watchdog
-plyer
-pystray
-pillow
