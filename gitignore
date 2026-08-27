@@ -1,0 +1,24 @@
+# Never commit your real API key
+.env
+
+# Generated at runtime — user-specific, shouldn't be in the repo
+hidhunter_log.txt
+hidhunter_log.txt.*
+hidhunter_alerts.txt
+hidhunter_config.json
+hidhunter_scan_cache.json
+hidhunter.lock
+Quarantine/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+*.egg-info/
+
+# Build artifacts (if you package with PyInstaller later)
+build/
+dist/
+*.spec
