@@ -1,0 +1,7 @@
+watchdog
+rarfile
+requests
+plyer
+pystray
+Pillow
+python-dotenv
